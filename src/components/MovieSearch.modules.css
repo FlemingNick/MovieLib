@@ -1,0 +1,74 @@
+.SearchInput{
+    margin-top: 50px;
+}
+
+.InputContainer{
+    margin: 100px 50% auto;
+    transform: translate(-50%);
+    width: 800px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    flex-direction: row;
+}
+
+.InputText{
+
+    list-style: none;
+}
+
+.MovieSearch{
+
+}
+
+.InputList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+.InputText li{
+    font-size: x-large;
+}
+.MovieTitle{
+    font-size: x-large;
+}
+.InputImage{
+    margin-left: 100px;
+    list-style: none;
+}
+
+.Library{
+    padding: 0;
+    background-color: black;
+
+}
+
+.LibraryEntries{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.LibraryEntry{
+    border: 2px solid white;
+    background-color: whitesmoke;
+    width: 22vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px auto;
+    box-shadow: black 2px 2px 2px;
+
+}
+
+.EntryText{
+    list-style: none;
+}
+
